@@ -36,8 +36,7 @@ a {
 .section__heading,
 .grid,
 .highlights,
-.contact-copy,
-.button {
+.contact-copy {
   max-width: 70rem;
 }
 
@@ -127,6 +126,16 @@ a {
   margin: 2rem auto 0;
   padding-left: 1.2rem;
   color: var(--muted);
+}
+
+.footer {
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+.footer p {
+  margin: 0;
 }
 
 @media (max-width: 640px) {
