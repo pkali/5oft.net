@@ -99,6 +99,11 @@ a {
   background: var(--text);
 }
 
+.button--secondary:hover,
+.button--secondary:focus-visible {
+  background: #0c1726;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
